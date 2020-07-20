@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
   body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -128,26 +128,9 @@
   }
   
   /* 48em = 768px */
-  
-  @media (min-width: 48em) {
-    .header li {
-      float: left;
-    }
-    .header li a {
-      padding: 20px 30px;
-    }
-    .header .menu {
-      clear: none;
-      float: right;
-      max-height: none;
-    }
-    .header .menu-icon {
-      display: none;
-    }
-  }
-  
-  /* hero */
-  body, html {
+
+   /* hero section*/
+   body, html {
     height: 100%;
     margin: 0;
     
@@ -183,3 +166,116 @@
  color: #fff;
  /* color: #5F5F5F; */
 }
+
+/*end of hero section*/
+
+.sub-hero{
+  margin-top: 250px;
+  margin-left: 50px;
+  margin-right:50px
+}
+
+.left-image-image{
+  width: 600px;
+  padding-left: 50px;
+}
+
+.sub-hero-title{
+  margin-top: 60px;
+  color: #0A2250;
+  font-weight: 500;
+  font-size: 35px;
+  width: 600px;
+}
+
+.sub-hero-text{
+  padding-top: 20px;
+  color: #5F5F5F;
+  font-size: 20px;
+  line-height: 30px; 
+}
+
+.discover-button .btn{
+  background-color:#0A2250;
+  color: #fff;
+  margin-top: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* hero section */
+  .hero-text {
+   
+    top: 40%;
+    left: 0;
+    transform: none;
+    color: white;
+    width: 380px;
+    padding-left: 20px;
+  }
+  .hero-text h1 {
+   font-size: 30px;
+  }
+
+  .hero-text p {
+    font-size:20px ;
+  }
+/* Sub hero section */
+  .sub-hero{
+    margin-top: 60px;
+    margin-left: 0;
+    margin-right:0
+  }
+  
+  .left-image-image{
+    width: 360px;
+    padding-left: 0;
+  }
+  
+  .sub-hero-title{
+    margin-top: 30px;
+    color: #0A2250;
+    font-weight: 400;
+    font-size: 25px;
+    width: 280px;
+    padding-left: 10px;
+  }
+  
+  .sub-hero-text{
+    padding-top: 20px;
+    color: #5F5F5F;
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 16px; 
+    width: 300px;
+  }
+  
+  .discover-button .btn{
+    background-color:#0A2250;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+}
+
+
+  @media (min-width: 768px) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+   
+
+  }
+  
+ 
