@@ -38,6 +38,10 @@
   .header .menu-btn:hover {
     color: #F28737;
   }
+
+  .header li a.active {
+    color: #F28737;
+  }
   
   .header .logo {
     display: block;
@@ -200,8 +204,74 @@
   color: #fff;
   margin-top: 10px;
 }
+/* end of sub hero section */
 
+/* proud projects section */
+
+.orange-text{
+  color: #F28737;
+}
+
+.proud-projects-subtitle{
+  color: #0A2250;
+  padding-top: 10px;
+}
+
+
+/* =============================================== MEDIA QUERIES ============================================== */
+
+/* Extra small devices (phones, 360px and down) */
+
+@media only screen and (max-width: 360px) {
+  /* hero section */
+  .hero-text {
+    left: 0;
+    transform: none;
+    color: white;
+    width: 360px;
+    padding-left: 20px;
+    font-size: 26px;
+  }
+  .hero-text h1 {
+   font-size: 26px;
+  }
+
+  .hero-text p {
+    font-size:20px ;
+    width: 320px;
+  }
+/* Sub hero section */
+
+  .row-class{
+    width: 360px;
+  }
+  .sub-hero{
+    width:350;
+  }
+  
+  .left-image-image{
+    width: 360px;
+  }
+
+  
+  .sub-hero-title{
+    width: 350px;
+    padding-left: 10px;
+  }
+  
+  .sub-hero-text{
+    padding-top: 20px;
+    color: #5F5F5F;
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 16px; 
+    width: 340px;
+  }
+  
+
+}
 /* Extra small devices (phones, 600px and down) */
+
 @media only screen and (max-width: 600px) {
   /* hero section */
   .hero-text {
@@ -221,24 +291,31 @@
     font-size:20px ;
   }
 /* Sub hero section */
+
+  .row-class{
+    width: 375px;
+  }
   .sub-hero{
     margin-top: 60px;
     margin-left: 0;
-    margin-right:0
+    margin-right:0;
+    width:350;
+
   }
   
   .left-image-image{
     width: 360px;
     padding-left: 0;
   }
+
   
   .sub-hero-title{
-    margin-top: 30px;
+    margin-top: 40px;
     color: #0A2250;
     font-weight: 400;
     font-size: 25px;
-    width: 280px;
-    padding-left: 10px;
+    width: 350px;
+    padding-left: 16px;
   }
   
   .sub-hero-text{
@@ -247,16 +324,152 @@
     font-size: 15px;
     line-height: 20px;
     padding-left: 16px; 
+    width: 340px;
+  }
+  
+  .discover-button .btn{
+    width: 150px;
+    margin-left: 16px; 
+    font-size: 14px;
+
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px ) and  (min-width: 600px) {
+
+  /* hero section */
+  .hero-text {
+   
+    top: 40%;
+    left: 0;
+    transform: none;
+    width: 500px;
+    padding-left: 20px;
+  }
+  .hero-text h1 {
+   font-size: 30px;
+  }
+
+  .hero-text p {
+    font-size:20px ;
+  }
+
+  /* Sub hero section */
+
+  .row-class{
+    width: 650px;
+  }
+  .sub-hero{
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right:0;
+    width:600px;
+
+  }
+  
+  .left-image-image{
+    width: 420px;
+    padding-left: 0;
+  }
+
+  
+  .sub-hero-title{
+    margin-top: 40px;
+    font-size: 20px;
+    width: 300px;
+    padding-left: 16px;
+    margin-left: 120px;
+  }
+  
+  .sub-hero-text{
+    padding-top: 20px;
+    color: #5F5F5F;
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 16px;
+    margin-left: 120px; 
     width: 300px;
   }
   
   .discover-button .btn{
-    background-color:#0A2250;
-    color: #fff;
-    margin-top: 10px;
+    width: 150px;
+    margin-left: 140px; 
+
   }
 
 }
+
+/* Small devices (portrait tablets, 768px and up) */
+@media only screen and (max-width: 1024px ) and  (min-width: 768px) {
+
+  /* hero section */
+  .hero-text {
+   
+    top: 40%;
+    left: 0;
+    transform: none;
+    width: 720px;
+    padding-left: 20px;
+  }
+  .hero-text h1 {
+    font-size: 65px;
+    width: 700px;
+  }
+
+  .hero-text p {
+    font-size: 35px;
+    padding-top: 20px;
+  }
+
+  /* Sub hero section */
+
+  .row-class{
+    width: 650px;
+  }
+  .sub-hero{
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right:0;
+    width:600px;
+
+  }
+  
+  .left-image-image{
+    width: 420px;
+    padding-left: 0;
+  }
+
+  
+  .sub-hero-title{
+    margin-top: 40px;
+    font-size: 20px;
+    width: 300px;
+    padding-left: 16px;
+    margin-left: 120px;
+  }
+  
+  .sub-hero-text{
+    padding-top: 20px;
+    color: #5F5F5F;
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 16px;
+    margin-left: 120px; 
+    width: 300px;
+  }
+  
+  .discover-button .btn{
+    width: 150px;
+    margin-left: 140px; 
+
+  }
+
+}
+
+
+
 
 
   @media (min-width: 768px) {
