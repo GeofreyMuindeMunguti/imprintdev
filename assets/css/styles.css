@@ -308,6 +308,8 @@
 
 /* logo carousel */
 
+
+
 /* benefits section */
 
 .benefits-section-title{
@@ -537,10 +539,26 @@
   font-size: 12px;
   padding-top: 12px;
 }
+
+/* benefits section */
+
+.benefits-card {
+  margin-bottom: 50px;
+  
+}
+.benefits-section-title{
+  font-size: 25px;
+  margin-top: 140px;
+  padding-top: 80px;
+  margin-bottom: 60px;
+}
+.benefits-title{
+  font-size: 20px;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 768px ) and  (min-width: 600px) {
+@media only screen and (max-width: 769px ) and  (min-width: 600px) {
 
   .logo-nav{
     width: 110px;
@@ -697,10 +715,21 @@
   height: 100%;
 }
 
+/* benefits section */
+.benefits-section{
+  width: 100%;
+  margin: 0 auto;
+}
+.benefits-card {
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom:40px;
+  margin-top: 40px;
+}
 }
 
 /* Small devices (portrait tablets, 768px and up) */
-@media only screen and (max-width: 1024px ) and  (min-width: 768px) {
+@media only screen and (max-width: 1024px ) and  (min-width: 769px) {
 
   /* hero section */
   .hero-text {
@@ -762,6 +791,15 @@
     width: 150px;
     margin-left: 140px; 
 
+  }
+
+  /* benefits section */
+  .benefits-card {
+    width: 280px;
+    height: 350px;
+    margin: 0 auto;
+    margin-bottom:40px;
+    margin-top: 40px;
   }
 
 }
