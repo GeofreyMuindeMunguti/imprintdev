@@ -167,9 +167,9 @@
       /* color: #0A2250; */
   }
   
-.hero-text p {
+.hero-p {
  color: #fff;
- /* color: #5F5F5F; */
+ font-weight: 300;
 }
 
 /*end of hero section*/
@@ -177,12 +177,13 @@
 .sub-hero{
   margin-top: 250px;
   margin-left: 50px;
-  margin-right:50px
+  margin-right:50px;
+  width: 80%;
 }
 
 .left-image-image{
-  width: 600px;
-  padding-left: 50px;
+  width: 500px;
+  /* padding-left: 50px; */
 }
 
 .sub-hero-title{
@@ -209,8 +210,14 @@
 
 /* proud projects section */
 
+.proud-proj {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
 .projects-section-title{
-  margin-top: 60px;
+  margin-top: 200px;
   color: #0A2250;
   font-weight: 500;
   font-size: 30px;
@@ -233,9 +240,6 @@
   width: 450px;
 }
 
-.proud-projects-btn {
-  margin-left: 50px;
-}
 
 .proud-projects-image{
   width: 450px;
@@ -366,6 +370,37 @@
 .paper-plane{
   width: 24px;
 }
+
+/* Services page  */
+.services{
+  margin-top: 100px;
+}
+.services-title{
+  padding-top: 250px;
+  font-size: 30px;
+  color: #0A2250;
+  text-align: center;
+}
+.services-title span{
+  color: #F28737;
+}
+.service-card{
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 15px;
+  background-color: transparent;
+  height: 300px;
+}
+.service-title {
+  color:#0A2250 ;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.service-icon {
+  width: 40px;
+}
 /* =============================================== MEDIA QUERIES ============================================== */
 
 /* Extra small devices (phones, 360px and down) */
@@ -406,6 +441,9 @@
     width: 350px;
     padding-left: 10px;
   }
+
+  
+
   
   .sub-hero-text{
     padding-top: 20px;
