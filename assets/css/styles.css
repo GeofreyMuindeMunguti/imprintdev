@@ -2,7 +2,7 @@
   body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
   }
   
   a {
@@ -64,6 +64,7 @@
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
+    margin-top: 10px;
   }
   
   /* menu icon */
@@ -187,33 +188,42 @@
 }
 
 .sub-hero-title{
-  margin-top: 60px;
+  margin-top: 50px;
   color: #0A2250;
   font-weight: 500;
-  font-size: 35px;
-  width: 600px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 500px;
+  margin-left: 80px;
 }
 
 .sub-hero-text{
-  padding-top: 20px;
+  padding-top: 15px;
   color: #5F5F5F;
-  font-size: 20px;
-  line-height: 30px; 
+  font-size: 17px;
+  line-height: 25px;
+  margin-left: 80px; 
+  width: 500px;
 }
 
 .discover-button .btn{
   background-color:#0A2250;
   color: #fff;
   margin-top: 10px;
+  margin-left: 80px;
 }
 /* end of sub hero section */
 
 /* proud projects section */
 
 .proud-proj {
-  width: 80%;
+  width: 1200px;
   margin: 0 auto;
 
+}
+
+.col-class {
+  padding-left: 80px;
 }
 
 .projects-section-title{
@@ -237,13 +247,18 @@
   color: #5F5F5F;
   font-size: 16px;
   line-height: 26px; 
-  width: 450px;
+  width: 500px;
 }
 
 
 .proud-projects-image{
-  width: 450px;
+  width: 500px;
   height: 250px;
+  -webkit-box-shadow: 0px 2px 7px -1px rgba(73, 72, 72, 0.75);
+  -moz-box-shadow: 0px 2px 7px -1px rgba(82, 81, 81, 0.75);
+  box-shadow: 0px 2px 7px -1px rgba(65, 65, 65, 0.75);
+  border-radius: 5px;
+  margin-bottom: 40px;
  
 }
 
@@ -258,6 +273,7 @@
 .carousel-control {
   opacity: 0;
 }
+
 
 .testimonial-section-title{
   font-size: 30px;
@@ -274,12 +290,14 @@
   padding-left: 25px;
   padding-top: 20px;
   margin-top: 10px;
+  color: #0A2250;
 }
 .testimonial-text {
   font-size: 15px;
   padding-left: 25px;
   padding-top: 30px;
   width: 400px;
+  color: #5F5F5F;
 }
 
 .testimonial-author {
@@ -303,9 +321,16 @@
 
 
 /* logo carousel */
+.logo-carousel {
+  margin-top: 70px;
+}
 
 
-
+.carousel-logo-img {
+  -webkit-box-shadow: 0px 2px 7px -1px rgba(73, 72, 72, 0.75);
+  -moz-box-shadow: 0px 2px 7px -1px rgba(82, 81, 81, 0.75);
+  box-shadow: 0px 2px 7px -1px rgba(65, 65, 65, 0.75);
+}
 /* benefits section */
 
 .benefits-section-title{
@@ -318,12 +343,17 @@
   margin-bottom: 80px;
 }
 
+.benefits-card-section{
+  padding-top: 20px;
+}
 .benefits-section{
   width: 90%;
   margin: 0 auto;
 }
 .benefits-card {
   width: 370px;
+  height: 550px;
+  border: transparent;
 }
 .benefits-image {
   width: 100%;
@@ -345,7 +375,8 @@
 /* footer section */
 .footer{
   margin-top: 150px;
-  color: #5F5F5F;
+  color: #494949;
+  width: 90%;
 }
 .logo-footer {
   width: 115px;
@@ -360,17 +391,32 @@
 }
 .footer-text-right{
   margin-left: 180px;
+  margin-top: 70px;
 }
 .footer-form{
   margin-left: 160px;
 }
-.form-box{
-  width: 500px;
-}
-.paper-plane{
-  width: 24px;
+.input-group .form-control{
+  width: 250px;
+  margin-top: 50px;
 }
 
+.paper-plane{
+  width: 24px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left:100px;
+  border-top: 1px solid rgb(221, 221, 221);
+}
+.text-muted {
+  margin-left: 100px;
+  font-size: 12px;
+}
 /* Services page  */
 .services{
   margin-top: 100px;
