@@ -146,11 +146,13 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
      url("/assets/img/photo-of-people-leaning-on-wooden-table-3183183.jpg");
     height: 100%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
   }
+
   
   .hero-text {
     text-align: left;
@@ -252,14 +254,19 @@
 
 
 .proud-projects-image{
+  transition: box-shadow .3s;
   width: 500px;
   height: 250px;
-  -webkit-box-shadow: 0px 2px 7px -1px rgba(73, 72, 72, 0.75);
-  -moz-box-shadow: 0px 2px 7px -1px rgba(82, 81, 81, 0.75);
-  box-shadow: 0px 2px 7px -1px rgba(65, 65, 65, 0.75);
   border-radius: 5px;
   margin-bottom: 40px;
  
+}
+
+.proud-projects-image:hover{
+  -webkit-box-shadow: 0px 2px 7px -1px rgba(73, 72, 72, 0.75);
+  -moz-box-shadow: 0px 2px 7px -1px rgba(82, 81, 81, 0.75);
+  box-shadow: 0px 2px 7px -1px rgba(65, 65, 65, 0.75);
+
 }
 
 
@@ -325,12 +332,6 @@
   margin-top: 70px;
 }
 
-
-.carousel-logo-img {
-  -webkit-box-shadow: 0px 2px 7px -1px rgba(73, 72, 72, 0.75);
-  -moz-box-shadow: 0px 2px 7px -1px rgba(82, 81, 81, 0.75);
-  box-shadow: 0px 2px 7px -1px rgba(65, 65, 65, 0.75);
-}
 /* benefits section */
 
 .benefits-section-title{
@@ -351,9 +352,17 @@
   margin: 0 auto;
 }
 .benefits-card {
+  transition: box-shadow .3s;
   width: 370px;
   height: 550px;
   border: transparent;
+}
+
+.benefits-card:hover{
+  -webkit-box-shadow: 0px 2px 7px -1px rgba(73, 72, 72, 0.75);
+  -moz-box-shadow: 0px 2px 7px -1px rgba(82, 81, 81, 0.75);
+  box-shadow: 0px 2px 7px -1px rgba(65, 65, 65, 0.75);
+
 }
 .benefits-image {
   width: 100%;
@@ -397,7 +406,7 @@
   margin-left: 160px;
 }
 .input-group .form-control{
-  width: 250px;
+  /* width: 250px; */
   margin-top: 50px;
 }
 
@@ -405,6 +414,7 @@
   width: 24px;
   margin-left: 10px;
   margin-top: 50px;
+  float: left;
 }
 
 hr {
@@ -431,6 +441,7 @@ hr {
   color: #F28737;
 }
 .service-card{
+  transition: box-shadow .3s;
   width: 300px;
   margin: 0 auto;
   margin-top: 50px;
@@ -438,6 +449,13 @@ hr {
   padding: 15px;
   background-color: transparent;
   height: 300px;
+}
+
+.service-card:hover{
+  -webkit-box-shadow: 0px 2px 7px -1px rgba(73, 72, 72, 0.75);
+  -moz-box-shadow: 0px 2px 7px -1px rgba(82, 81, 81, 0.75);
+  box-shadow: 0px 2px 7px -1px rgba(65, 65, 65, 0.75);
+
 }
 .service-title {
   color:#0A2250 ;
@@ -447,27 +465,112 @@ hr {
 .service-icon {
   width: 40px;
 }
+
+/* our work page */
+
+.project-thumbnail {
+  width: 90%;
+  height: 300px;
+}
+.project-thumbnail-long {
+  filter: brightness(80%);
+}
+
+/* contact page */
+.btn{
+  background-color:#0A2250;
+  color: #fff;
+  margin-top: 8px;
+}
+
+.contact-text {
+  color: #5F5F5F;
+  font-size: 17px;
+}
+
+.contact-section{
+  padding-top: 150px;
+}
+
+
+/* case studies section */
+.case-study-image {
+  width: 100%;
+  margin-top: 100px;
+  filter: brightness(80%);
+} 
+.brief-title {
+  color: #0A2250;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.brief-content {
+  color: #5F5F5F;
+  font-size: 20px;
+  width: 80%;
+}
+/* Joannak  */
+.hero-image-joanna {
+  background-image:
+   url("/assets/img/joannahero.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* leanmeals */
+.hero-image-leanmeals {
+  background-image:
+   url("/assets/img/lean\ meals\ thumbnail2-1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.leanrow {
+  margin-top: 100px;
+}
+
 /* =============================================== MEDIA QUERIES ============================================== */
 
 /* Extra small devices (phones, 360px and down) */
 
 @media only screen and (max-width: 360px) {
+
+  /* nav-section */
+
+  .logo-nav {
+    margin-left: 0;
+    width:100px;
+  }
   /* hero section */
+
+  .hero-image{
+    width: 320px;
+  }
   .hero-text {
     left: 0;
     transform: none;
     color: white;
-    width: 360px;
-    padding-left: 20px;
-    font-size: 26px;
+    width: 300px;
+    padding-left: 10px;
+  }
+
+  .hero-title {
+    width: 300px;
   }
   .hero-text h1 {
-   font-size: 26px;
+   font-size: 20px;
   }
 
   .hero-text p {
-    font-size:20px ;
-    width: 320px;
+    font-size:15px ;
+    width: 300px;
   }
 /* Sub hero section */
 
@@ -504,7 +607,7 @@ hr {
 }
 /* Extra small devices (phones, 600px and down) */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 370px) and (max-width: 600px) {
 
   .logo-nav{
     margin-left: 10px;
@@ -516,13 +619,18 @@ hr {
     height: 50px;
   }
   /* hero section */
+
+  .hero-image{
+    min-width: 375px;
+    max-width: 425px;
+  }
   .hero-text {
    
     top: 40%;
     left: 0;
     transform: none;
     color: white;
-    width: 380px;
+    /* width: 380px; */
     padding-left: 20px;
   }
   .hero-text h1 {
@@ -535,7 +643,7 @@ hr {
 /* Sub hero section */
 
   .row-class{
-    width: 375px;
+    width: 320px;
   }
   .sub-hero{
     margin-top: 60px;
@@ -545,16 +653,17 @@ hr {
 
   }
   .sub-hero-text{
-    padding-top: 20px;
-    padding-left: 16px;
+    padding-top: 10px;
     font-size: 16px;
+    margin-left: 0;
+    width: 300px;
 
   }
   .left-image-image{
-    width: 360px;
+    width: 300px;
     padding-left: 0;
     margin-top: 40px;
-    padding-left: 20px;
+    padding-left: 10px;
   }
 
   
@@ -562,13 +671,20 @@ hr {
     margin-top: 40px;
     color: #0A2250;
     font-weight: 400;
-    font-size: 25px;
-    width: 350px;
-    padding-left: 16px;
+    font-size: 20px;
+    width: 300px;
+    padding-left: 10px;
+    margin-left: 0;
+  }
+
+  .sub-hero-p {
+    font-size: 18px;
+    width: 300px;
+    padding-left: 10px;
   }
 
   .discover-button .btn{
-    margin-left: 16px;
+    margin-left: 10px;
   }
 
   /* projects section */
@@ -685,12 +801,13 @@ hr {
     width: 500px;
     padding-left: 20px;
   }
-  .hero-text h1 {
-   font-size: 20px;
+  .hero-title {
+   font-size: 30px;
   }
 
-  .hero-text p {
-    font-size:20px ;
+  .hero-p {
+    font-size:18px ;
+    font-weight: 300;
   }
 
   /* Sub hero section */
