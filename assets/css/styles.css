@@ -146,7 +146,6 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
      url("/assets/img/photo-of-people-leaning-on-wooden-table-3183183.jpg");
     height: 100%;
-    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,13 +230,14 @@
 /* proud projects section */
 
 .proud-proj {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
 
 }
 
 .col-class {
-  padding-left: 80px;
+  /* padding-left: 80px; */
+  /* margin-left :20px; */
 }
 
 .projects-section-title{
@@ -261,15 +261,16 @@
   color: #5F5F5F;
   font-size: 16px;
   line-height: 26px; 
-  width: 500px;
+  width: 100%;
 }
 
 
 .proud-projects-image{
   transition: box-shadow .3s;
-  width: 500px;
-  height: 250px;
+  width: 100%;
+  height: 100%;
   border-radius: 5px;
+  margin-top: 40px;
   margin-bottom: 40px;
  
 }
@@ -481,7 +482,7 @@ hr {
 .project-thumbnail {
   transition: box-shadow .3s;
   width: 100%;
-  height: 280px;
+  
 }
 
 .project-thumbnail:hover{
@@ -490,8 +491,10 @@ hr {
   box-shadow: 0px 2px 7px -1px rgba(65, 65, 65, 0.75);
 
 }
-.project-thumbnail-long {
-  /* filter: brightness(80%); */
+.thumbnail-title {
+  color: #0A2250;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 
 /* contact page */
@@ -562,7 +565,7 @@ hr {
 .hero-image-joanna {
   background-image:
    url("/assets/img/joannahero.jpg");
-  height: 100%;
+  height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -572,7 +575,7 @@ hr {
 .hero-image-leanmeals {
   background-image:
    url("/assets/img/lean\ meals\ thumbnail2-1.jpg");
-  height: 100%;
+  height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -586,37 +589,37 @@ hr {
 /* adrian app */
 
 .hero-image-adrian {
-  background-image:
-   url("/assets/img/adrianfleet-1.jpg");
+  background-image: url("/assets/img/adrianfleet-1.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding-top: 150px;
+
+  
 }
 /* erp */
 .hero-image-erp {
-  background-image:
-   url("/assets/img/ERP-1.jpg");
-  height: 100%;
+
+  background-image: url("/assets/img/ERP-1.jpg");
+  height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding-top: 150px;
 }
 /* crystal */
+
+.spacer{
+  height: 120px;
+}
 .hero-image-crystal {
-  background-image:
-   url("/assets/img/crystal\ thumbnail\ \(1\)-1.jpg");
-  height: 100%;
-  width: 100%;
+  background-image: url("/assets/img/crystal\ thumbnail\ \(1\)-1.jpg");
+  height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding-top: 150px;
 }
 
 
@@ -774,7 +777,7 @@ hr {
   }
 
   /* projects section */
-  .projects-section-title{
+  /* .projects-section-title{
     
     margin-top: 40px;
     font-size: 24px;
@@ -809,7 +812,7 @@ hr {
 
   
 
-}
+} */
 /* end of proud projects section */
 
 /* testimonial carousel */
@@ -940,7 +943,7 @@ hr {
   }
 /* proud projects section */
 
-.projects-section-title{
+/* .projects-section-title{
   margin-top: 60px;
   color: #0A2250;
   font-weight: 500;
@@ -949,7 +952,7 @@ hr {
   padding-left: 16px;
   margin-right: 40px;
 
-}
+} */
 
 
 .proud-projects-subtitle{
@@ -966,15 +969,8 @@ hr {
   line-height: 20px; 
 }
 
-.proud-projects-btn {
-  margin-left: 16px;
-}
 
-.proud-projects-image{
-  width: 370px;
-  margin-left: 55px;
-  margin-top: 50px;
-}
+
 /* carousel section */
 
 .carousel {
