@@ -1,7 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap'); */
+@font-face {
+  font-family: 'Manrope Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('assets/fonts/bold.woff');
+  }
+
+@font-face {
+  font-family: 'Manrope Light';
+  font-style: normal;
+  font-weight: normal;
+  src: url('assets/fonts/light.woff');
+  }
   body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Manrope Light', sans-serif;
     background-color: #ffffff;
     height: 100%;
   }
@@ -160,14 +173,14 @@
     top: 60%;
     left: 30%;
     transform: translate(-50%, -50%);
-    color: white;
     width: 550px;
   }
 
   .hero-title {
       color: #fff;
       /* color: #0A2250; */
-      font-size: 45px;
+      font-size: 50px;
+      font-family: 'Manrope Bold' , sans-serif;
       font-weight: 400;
       line-height: 1em;
   }
@@ -175,7 +188,7 @@
 .hero-p {
  color: #fff;
  font-weight: 300;
- font-size: 22px;
+ font-size: 20px;
  margin-top: 20px;
 }
 
@@ -230,23 +243,29 @@
 
 /* proud projects section */
 
-.proud-proj {
-  width: 100%;
-  margin: 0 auto;
 
+.projcontainer {
+  background: #e9ecec;
+  width: 100%;
+  margin-top: 200px;
+  padding-bottom: 50px;
 }
 
-.col-class {
-  /* padding-left: 80px; */
-  /* margin-left :20px; */
+.proud-card {
+  width: 95%;
+  background-color: transparent;
+  border: transparent;
+}
+.row-class {
+padding-left:30px;
 }
 
 .projects-section-title{
-  margin-top: 200px;
+  margin-top: 50px;
   color: #0A2250;
   font-weight: 500;
   font-size: 30px;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
   text-align: center;
 
 }
@@ -259,7 +278,7 @@
 
 .proud-projects-text{
   padding-top: 12px;
-  color: #5F5F5F;
+  color: #4a4f54;
   font-size: 16px;
   line-height: 26px; 
   width: 100%;
@@ -267,7 +286,8 @@
 
 
 .proud-projects-image{
-  transition: box-shadow .3s;
+  transition: filter .3s;
+  border: #5F5F5F;
   width: 100%;
   height: 100%;
   border-radius: 5px;
@@ -277,10 +297,17 @@
 }
 
 .proud-projects-image:hover{
-  -webkit-box-shadow: 0px 2px 7px -1px rgba(73, 72, 72, 0.75);
-  -moz-box-shadow: 0px 2px 7px -1px rgba(82, 81, 81, 0.75);
-  box-shadow: 0px 2px 7px -1px rgba(65, 65, 65, 0.75);
+  /* -webkit-box-shadow: 0px 2px 7px -1px rgba(202, 203, 207, 0.75);
+  -moz-box-shadow: 0px 2px 7px -1px rgba(163, 164, 168, 0.75);
+  box-shadow: 0px 2px 7px -1px rgba(143, 144, 148, 0.75); */
+  filter: brightness(95%);
 
+}
+
+.see-more {
+  padding-top: 40px;
+  margin: 0 auto;
+  color: #0A2250;
 }
 
 
@@ -303,7 +330,7 @@
   text-align: center;
   margin-top: 150px;
   padding-top: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 .testimonial-title {
   font-size: 25px;
@@ -341,9 +368,14 @@
 }
 
 
-/* logo carousel */
-.logo-carousel {
-  margin-top: 70px;
+/* logos section*/
+.logos {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.logo-row {
+  margin-top: 50px;
 }
 
 /* benefits section */
@@ -355,7 +387,7 @@
   text-align: center;
   margin-top: 150px;
   padding-top: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .benefits-card-section{
@@ -368,8 +400,10 @@
 .benefits-card {
   transition: box-shadow .3s;
   width: 370px;
-  height: 550px;
+  height: 480px;
   border: transparent;
+  background-color:#e9ecec ;
+  
 }
 
 .benefits-card:hover{
@@ -385,14 +419,12 @@
 .benefits-title{
   font-size: 25px;
   color: #0A2250;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 5px;
 }
 .benefits-text{
   font-size: 15px;
   color: #5F5F5F;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 5px;
 }
 
 /* footer section */
@@ -1138,7 +1170,7 @@ hr {
 
 
 
-  @media (min-width: 768px) {
+  @media (min-width: 770px) {
     .header li {
       float: left;
     }
