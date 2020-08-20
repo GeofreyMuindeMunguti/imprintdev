@@ -195,15 +195,14 @@
 /*end of hero section*/
 
 .sub-hero{
-  margin-top: 250px;
+  margin-top: 200px;
   margin-left: 50px;
   margin-right:50px;
-  width: 80%;
+  width: 90%;
 }
 
 .left-image-image{
-  width: 500px;
-  /* padding-left: 50px; */
+  width: 100%;
 }
 
 .sub-hero-title{
@@ -213,7 +212,7 @@
   font-size: 25px;
   line-height: 30px;
   width: 500px;
-  margin-left: 80px;
+  margin-left: 20px;
 }
 
 .sub-hero-text{
@@ -221,7 +220,7 @@
   color: #5F5F5F;
   font-size: 17px;
   line-height: 25px;
-  margin-left: 80px; 
+  margin-left: 20px; 
   width: 500px;
 }
 
@@ -230,7 +229,7 @@
   background-color:#0A2250;
   color: #fff;
   margin-top: 10px;
-  margin-left: 80px;
+  margin-left: 20px;
 }
 
 .discover-button .btn:hover{
@@ -297,11 +296,7 @@ padding-left:30px;
 }
 
 .proud-projects-image:hover{
-  /* -webkit-box-shadow: 0px 2px 7px -1px rgba(202, 203, 207, 0.75);
-  -moz-box-shadow: 0px 2px 7px -1px rgba(163, 164, 168, 0.75);
-  box-shadow: 0px 2px 7px -1px rgba(143, 144, 148, 0.75); */
   filter: brightness(95%);
-
 }
 
 .see-more {
@@ -334,7 +329,6 @@ padding-left:30px;
 }
 .testimonial-title {
   font-size: 25px;
-  font-family: 'Roboto', sans-serif;
   padding-left: 25px;
   padding-top: 20px;
   margin-top: 10px;
@@ -562,7 +556,7 @@ hr {
 
 .brief-content {
   color: #5F5F5F;
-  font-size: 20px;
+  font-size: 18px;
   width: 80%;
 }
 
@@ -597,7 +591,7 @@ hr {
 /* Joannak  */
 .hero-image-joanna {
   background-image:
-   url("/assets/img/joannahero.jpg");
+   url("/assets/img/joannak\ thumbnail.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -607,7 +601,7 @@ hr {
 /* leanmeals */
 .hero-image-leanmeals {
   background-image:
-   url("/assets/img/lean\ meals\ thumbnail2-1.jpg");
+   url("/assets/img/leanmeals\ thumbnail.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -622,7 +616,7 @@ hr {
 /* adrian app */
 
 .hero-image-adrian {
-  background-image: url("/assets/img/adrianfleet-1.jpg");
+  background-image: url("/assets/img/adrian-thumbnail.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -634,7 +628,7 @@ hr {
 /* erp */
 .hero-image-erp {
 
-  background-image: url("/assets/img/ERP-1.jpg");
+  background-image: url("/assets/img/erp-thumbnail.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -645,7 +639,7 @@ hr {
 
 .hero-image-bcp {
 
-  background-image: url("/assets/img/bcp-thumbnail-1.jpg");
+  background-image: url("/assets/img/bcp-thumbnail.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -658,7 +652,7 @@ hr {
   height: 120px;
 }
 .hero-image-crystal {
-  background-image: url("/assets/img/crystal\ thumbnail\ \(1\)-1.jpg");
+  background-image: url("/assets/img/crystal-thumbnail.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -669,507 +663,442 @@ hr {
 
 
 /* =============================================== MEDIA QUERIES ============================================== */
-
-/* Extra small devices (phones, 360px and down) */
-
-@media only screen and (max-width: 360px) {
-
-  /* nav-section */
-
+@media (max-width: 575.98px) { 
   .logo-nav {
-    margin-left: 0;
-    width:100px;
-  }
-  /* hero section */
-
-  .hero-image {
-    width: 320px;
-  }
-
-  .hero-text {
-    left: 0;
-    transform: none;
-    color: white;
-    width: 300px;
-    padding-left: 10px;
-  }
-
-  .hero-title {
-    width: 300px;
-  }
-  .hero-text h1 {
-   font-size: 20px;
-  }
-
-  .hero-text p {
-    font-size:15px ;
-    width: 300px;
-  }
-/* Sub hero section */
-
-  .row-class{
-    width: 360px;
-  }
-  .sub-hero{
-    width:350;
-  }
-  
-  .left-image-image{
-    width: 360px;
-  }
-
-  
-  .sub-hero-title{
-    width: 350px;
-    padding-left: 10px;
-  }
-
-  
-
-  
-  .sub-hero-text{
-    padding-top: 20px;
-    color: #5F5F5F;
-    font-size: 15px;
-    line-height: 20px;
-    padding-left: 16px; 
-    width: 340px;
-  }
-
-  /* Joannak  */
-.hero-image-joanna {
-  background-image:
-   url("/assets/img/joannahero.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-  
-
-}
-/* Extra small devices (phones, 600px and down) */
-
-@media only screen and (min-width: 370px) and (max-width: 600px) {
-
-  .logo-nav{
-    margin-left: 10px;
-  }
-  .menu {
-    margin-bottom: 30px;
-  }
-  .menu li {
-    height: 50px;
-  }
-  /* hero section */
-
-  .hero-image {
-    min-width: 375px;
-    max-width: 425px;
+    margin-left: 5px;
   }
   .hero-text {
-   
-    top: 40%;
-    left: 0;
-    transform: none;
-    color: white;
-    width: 380px; 
-    padding-left: 20px;
+    top: 60%;
+    left: 45%;
+    width: 80%;
   }
   .hero-title {
-    font-size: 35px;
-  }
-
-  .hero-text p {
-    font-size:20px ;
-  } 
-/* Sub hero section */
-
-  .row-class{
-    width: 320px;
-  }
-  .sub-hero{
-    margin-top: 60px;
-    margin-left: 0;
-    margin-right:0;
-    width:350;
-
-  }
-  .sub-hero-text{
-    padding-top: 10px;
-    font-size: 16px;
-    margin-left: 0;
-    width: 300px;
-
-  }
-  .left-image-image{
-    width: 300px;
-    padding-left: 0;
-    margin-top: 40px;
-    padding-left: 10px;
-  }
-
-  
-  .sub-hero-title{
-    margin-top: 40px;
-    color: #0A2250;
-    font-weight: 400;
-    font-size: 20px;
-    width: 300px;
-    padding-left: 10px;
-    margin-left: 0;
-  }
-
-  .sub-hero-p {
-    font-size: 18px;
-    width: 300px;
-    padding-left: 10px;
-  }
-
-  .discover-button .btn{
-    margin-left: 10px;
-  }
-
-  /* projects section */
-  /* .projects-section-title{
-    
-    margin-top: 40px;
-    font-size: 24px;
-    width: 350px;
-    margin-left: 16px; 
-    padding-left: 0;
-  }
-
-  .proud-projects-subtitle{
-    padding-top: 10px;
-    font-size: 20px ;
-
-  }
-  
-  
-  .proud-projects-text{
-    padding-top: 20px;
-    color: #5F5F5F;
-    font-size: 17px;
-    line-height: 30px; 
-  }
-  
-  .proud-projects-btn {
-    margin-left: 16px;
-  }
-  
-  .proud-projects-image{
-    width: 450px;
-    height: 280px;
-    margin-left: 16px;
-    margin-top: 80px;
-
-  
-
-} */
-/* end of proud projects section */
-
-/* Joannak  */
-.hero-image-joanna , .hero-image-leanmeals, .hero-image-adrian, .hero-image-erp, .hero-image-bcp, .hero-image-crystal{
-  height: 38%;
-}
-
-/* testimonial carousel */
-.carousel{
-  width: 99%;
-}
-
-.testimonial-section-title{
-  font-size: 25px;
-  margin-top: 40px;
-  padding-top: 80px;
-  margin-bottom: 40px;
-}
-.testimonial-title {
-  font-size: 20px;
-  padding-left: 25px;
-  padding-top: 10px;
-  margin-top: 5px;
-}
-.testimonial-text {
-  font-size: 12px;
-  padding-left: 25px;
-  padding-top: 10px;
-  width: 90%;
-}
-
-.testimonial-author {
-  font-size: 15px;
-  padding-left: 25px;
-  padding-top: 10px;
-  width: 90%;
-}
-
-.testimonial-author-position {
-  font-size: 12px;
-  padding-top: 12px;
-}
-
-/* benefits section */
-
-.benefits-card {
-  margin-bottom: 50px;
-  
-}
-.benefits-section-title{
-  font-size: 25px;
-  margin-top: 140px;
-  padding-top: 80px;
-  margin-bottom: 60px;
-}
-.benefits-title{
-  font-size: 20px;
-}
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 769px ) and  (min-width: 600px) {
-
-  .logo-nav{
-    width: 110px;
-    height: 50px;
-    margin-left: 20px;
-}
-
-.header {
-  height: 70px;
-}
-
-  /* hero section */
-  /* .hero-text {
-   
-    top: 40%;
-    left: 0;
-    transform: none;
-    width: 500px;
-    padding-left: 20px;
-  }
-  .hero-title {
-   font-size: 30px;
+    font-size: 30px; 
   }
 
   .hero-p {
-    font-size:18px ;
-    font-weight: 300;
-  } */
+    font-size: 17px;
+    margin-top: 20px;
+   }
 
-  /* Sub hero section */
+   /* sub-hero section */
 
-  .row-class{
-    width: 650px;
+   .left-image-image{
+    width: 100%;
+  }
+
+  .sub-hero-title{
+    /* margin-top: 50px; */
+    font-size: 20px;
+    line-height: 28px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .sub-hero-text{
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-left: 0; 
+    width: 90%;
   }
   .sub-hero{
-    margin-top: 50px;
+    margin-top: 200px;
     margin-left: 0;
-    margin-right:0;
-    width:600px;
-
-  }
-  
-  .left-image-image{
-    width: 420px;
-    padding-left: 0;
+    margin-right:10px;
+    width: 100%;
   }
 
-  
-  .sub-hero-title{
-    margin-top: 40px;
-    font-size: 20px;
-    width: 300px;
-    padding-left: 16px;
-    margin-left: 120px;
-  }
-  
-  .sub-hero-text{
-    padding-top: 20px;
-    color: #5F5F5F;
-    font-size: 15px;
-    line-height: 20px;
-    padding-left: 16px;
-    margin-left: 120px; 
-    width: 300px;
-  }
-  
   .discover-button .btn{
-    width: 150px;
-    margin-left: 140px; 
-
+    margin-left: 0;
   }
-/* proud projects section */
 
-/* .projects-section-title{
-  margin-top: 60px;
-  color: #0A2250;
-  font-weight: 500;
-  font-size: 20px;
-  width: 400px;
-  padding-left: 16px;
-  margin-right: 40px;
+  /* testimonial section */
+  .testimonial-section-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 100px;
+    padding-top: 80px;
+    margin-bottom: 60px;
+  }
 
-} */
+  .testimonial-title {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-top: 10px;
+  }
+  .testimonial-text {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 15px;
+    width: 95%;
+  }
 
+  .testimonial-author {
+    font-size: 13px;
+    padding-left: 10px;
+    padding-top: 15px;
+    width: 95%;
+  }
+  .testimonial-author-position {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 95%;
+  }
+  /* benefits section */
 
-.proud-projects-subtitle{
-  color: #0A2250;
-  padding-top: 10px;
-
-  font-size: 18px;
-}
-
-.proud-projects-text{
-  padding-top: 15px;
-  color: #5F5F5F;
-  font-size: 15px;
-  line-height: 20px; 
-}
-
-
-
-/* carousel section */
-
-.carousel {
-  width: 95%;
-}
-
-.testimonial-section-title{
-  font-size: 30px;
-  color: #0A2250;
-  font-weight: 500;
-  text-align: center;
+.benefits-section-title{
+  font-size: 24px;
   margin-top: 100px;
-  padding-top: 80px;
+  padding-top: 50px;
   margin-bottom: 40px;
 }
-.testimonial-title {
-  font-size: 25px;
-  padding-top: 20px;
-  margin-top: 10px;
-}
-.testimonial-text {
-  font-size: 14px;
-  padding-left: 25px;
-  padding-top: 10px;
-  width: 300px;
-}
-
-.testimonial-author {
-  font-size: 12px;
-  padding-left: 25px;
-  padding-top: 8px;
-  width: 300px;
-}
-
-.testimonial-author-position {
-  font-size: 12px;
-  padding-left: 25px;
-  padding-top: 5px;
-  width: 300px;
-  color: #5F5F5F;
-}
-.testimonial-image {
-  width: 100%;
-  height: 100%;
-}
-
-/* benefits section */
-.benefits-section{
-  width: 100%;
-  margin: 0 auto;
+.benefits-title{
+  font-size: 20px;
+  padding: 5px;
 }
 .benefits-card {
-  width: 500px;
+  width: 90%;
+  height: 480px;
   margin: 0 auto;
-  margin-bottom:40px;
-  margin-top: 40px;
+  margin-bottom: 40px;
+  
 }
+  
+
 }
 
-/* Small devices (portrait tablets, 768px and up) */
-@media only screen and (max-width: 1024px ) and  (min-width: 769px) {
-
-  /* hero section */
-  /* .hero-text {
-   
-    top: 40%;
-    left: 0;
-    transform: none;
-    width: 720px;
-    padding-left: 20px;
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) and (min-width: 576px) { 
+  .logo-nav {
+    margin-left: 5px;
   }
-  .hero-text h1 {
-    font-size: 55px;
-    width: 700px;
+  .hero-text {
+    top: 60%;
+    left: 50%;
+    width: 80%;
+  }
+  .hero-title {
+    font-size: 35px; 
   }
 
-  .hero-text p {
-    font-size: 28px;
-    padding-top: 20px;
-  } */
+  .hero-p {
+    font-size: 20px;
+    margin-top: 20px;
+   }
 
-  /* Sub hero section */
+   /* sub-hero section */
 
-  .row-class{
-    width: 650px;
+   .left-image-image{
+    width: 100%;
+  }
+
+  .sub-hero-title{
+    /* margin-top: 50px; */
+    font-size: 22px;
+    line-height: 28px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .sub-hero-text{
+    padding-top: 10px;
+    font-size: 17px;
+    line-height: 25px;
+    margin-left: 0; 
+    width: 90%;
   }
   .sub-hero{
-    margin-top: 50px;
+    margin-top: 200px;
     margin-left: 0;
-    margin-right:0;
-    width:600px;
-
-  }
-  
-  .left-image-image{
-    width: 420px;
-    padding-left: 0;
+    margin-right:10px;
+    width: 100%;
   }
 
-  
-  .sub-hero-title{
-    margin-top: 40px;
-    font-size: 20px;
-    width: 300px;
-    padding-left: 16px;
-    margin-left: 120px;
-  }
-  
-  .sub-hero-text{
-    padding-top: 20px;
-    color: #5F5F5F;
-    font-size: 15px;
-    line-height: 20px;
-    padding-left: 16px;
-    margin-left: 120px; 
-    width: 300px;
-  }
-  
   .discover-button .btn{
-    width: 150px;
-    margin-left: 140px; 
-
+    margin-left: 0;
   }
 
-  /* benefits section */
-  .benefits-card {
-    width: 280px;
-    height: 350px;
-    margin: 0 auto;
-    margin-bottom:40px;
-    margin-top: 40px;
+  /* testimonial section */
+  .testimonial-section-title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 100px;
+    padding-top: 80px;
+    margin-bottom: 60px;
   }
+
+  .testimonial-title {
+    font-size: 22px;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-top: 10px;
+  }
+  .testimonial-text {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 15px;
+    width: 95%;
+  }
+
+  .testimonial-author {
+    font-size: 13px;
+    padding-left: 10px;
+    padding-top: 15px;
+    width: 95%;
+  }
+  .testimonial-author-position {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 95%;
+  }
+
+    /* benefits section */
+
+.benefits-section-title{
+  font-size: 24px;
+  margin-top: 100px;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+.benefits-title{
+  font-size: 20px;
+  padding: 5px;
+}
+.benefits-card {
+  width: 60%;
+  height: 480px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  
+}
 
 }
 
+@media (max-width: 991.98px) and (min-width: 768px) { 
+  .logo-nav {
+    margin-left: 5px;
+  }
+  .hero-text {
+    top: 60%;
+    left: 46%;
+    width: 80%;
+  }
+  .hero-title {
+    font-size: 40px; 
+  }
 
+  .hero-p {
+    font-size: 20px;
+    margin-top: 20px;
+   }
 
+   /* sub-hero section */
 
+   .left-image-image{
+    width: 100%;
+  }
 
+  .sub-hero-title{
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 25px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .sub-hero-text{
+    padding-top: 5px;
+    font-size: 13px;
+    line-height: 23px;
+    margin-left: 0; 
+    width: 90%;
+  }
+  .sub-hero{
+    margin-top: 200px;
+    margin-left: 0;
+    margin-right:10px;
+    width: 100%;
+  }
+
+  .discover-button .btn{
+    margin-left: 0;
+  }
+
+  /* testimonial section */
+  .testimonial-section-title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 100px;
+    padding-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  .testimonial-title {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-top: 10px;
+  }
+  .testimonial-text {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 97%;
+  }
+
+  .testimonial-author {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 8px;
+    width: 97%;
+  }
+  .testimonial-author-position {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    width: 95%;
+  }
+
+      /* benefits section */
+
+.benefits-section-title{
+  font-size: 24px;
+  margin-top: 100px;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+.benefits-title{
+  font-size: 20px;
+  padding: 5px;
+}
+.benefits-card {
+  width: 60%;
+  height: 480px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  
+}
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) and (min-width: 992px){ 
+
+  img.logo-nav {
+    margin-left: 5px;
+  }
+  .hero-text {
+    top: 60%;
+    left: 35%;
+    width: 60%;
+  }
+  .hero-title {
+    font-size: 35px; 
+  }
+
+  .hero-p {
+    font-size: 20px;
+    margin-top: 20px;
+   }
+
+   /* sub-hero section */
+
+   .left-image-image{
+    width: 100%;
+  }
+
+  .sub-hero-title{
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 26px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .sub-hero-text{
+    padding-top: 5px;
+    font-size: 16px;
+    line-height: 23px;
+    margin-left: 0; 
+    width: 90%;
+  }
+  .sub-hero{
+    margin-top: 180px;
+    margin-left: 0;
+    margin-right:10px;
+    width: 100%;
+  }
+
+  .discover-button .btn{
+    margin-left: 0;
+  }
+
+  /* testimonial section */
+  .testimonial-section-title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 100px;
+    padding-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  .testimonial-title {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-top: 10px;
+  }
+  .testimonial-text {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 97%;
+  }
+
+  .testimonial-author {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 8px;
+    width: 97%;
+  }
+  .testimonial-author-position {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    width: 95%;
+  }
+
+        /* benefits section */
+
+.benefits-section-title{
+  font-size: 24px;
+  margin-top: 100px;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+.benefits-title{
+  font-size: 20px;
+  padding: 5px;
+}
+.benefits-card {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  
+}
+
+}
+
+/* ============================================================================================================= */
   @media (min-width: 770px) {
     .header li {
       float: left;
