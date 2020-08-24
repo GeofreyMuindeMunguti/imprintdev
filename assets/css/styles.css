@@ -1,5 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap'); */
-@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+/* @font-face {
   font-family: 'Manrope Bold';
   font-style: normal;
   font-weight: normal;
@@ -11,10 +11,10 @@
   font-style: normal;
   font-weight: normal;
   src: url('assets/fonts/light.woff');
-  }
+  } */
   body {
     margin: 0;
-    font-family: 'Manrope Light', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
     height: 100%;
   }
@@ -174,13 +174,14 @@
     left: 30%;
     transform: translate(-50%, -50%);
     width: 550px;
+    
   }
 
   .hero-title {
       color: #fff;
       /* color: #0A2250; */
       font-size: 50px;
-      font-family: 'Manrope Bold' , sans-serif;
+      font-family: 'Circular Book' , sans-serif;
       font-weight: 400;
       line-height: 1em;
   }
@@ -190,6 +191,7 @@
  font-weight: 300;
  font-size: 20px;
  margin-top: 20px;
+ font-family: 'Roboto', sans-serif;
 }
 
 /*end of hero section*/
@@ -206,19 +208,22 @@
 }
 
 .sub-hero-title{
-  margin-top: 50px;
+  margin-top: 30px;
   color: #0A2250;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 30px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 35px;
   width: 500px;
   margin-left: 20px;
+  font-family: 'Circular Book' , sans-serif;
 }
 
 .sub-hero-text{
-  padding-top: 15px;
+  padding-top: 10px;
   color: #5F5F5F;
-  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
   line-height: 25px;
   margin-left: 20px; 
   width: 500px;
@@ -260,6 +265,7 @@ padding-left:30px;
 }
 
 .projects-section-title{
+  
   margin-top: 50px;
   color: #0A2250;
   font-weight: 500;
@@ -270,12 +276,14 @@ padding-left:30px;
 }
 
 .proud-projects-subtitle{
+  font-family: 'Circular Book' , sans-serif;
   color: #0A2250;
   padding-top: 10px;
   font-size: 25px;
 }
 
 .proud-projects-text{
+  font-family: 'Roboto', sans-serif;
   padding-top: 12px;
   color: #4a4f54;
   font-size: 16px;
@@ -319,15 +327,17 @@ padding-left:30px;
 
 
 .testimonial-section-title{
-  font-size: 30px;
+  font-family: 'Circular Book' , sans-serif;
+  font-size: 32px;
   color: #0A2250;
-  font-weight: 500;
+  font-weight: 350;
   text-align: center;
   margin-top: 150px;
   padding-top: 80px;
   margin-bottom: 60px;
 }
 .testimonial-title {
+  font-family: 'Circular Book' , sans-serif;
   font-size: 25px;
   padding-left: 25px;
   padding-top: 20px;
@@ -375,6 +385,7 @@ padding-left:30px;
 /* benefits section */
 
 .benefits-section-title{
+  font-family: 'Circular Book', sans-serif;
   font-size: 30px;
   color: #0A2250;
   font-weight: 500;
@@ -411,11 +422,13 @@ padding-left:30px;
   height: 250px;
 }
 .benefits-title{
+  font-family: 'Circular Book', sans-serif;
   font-size: 25px;
   color: #0A2250;
   padding: 5px;
 }
 .benefits-text{
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   color: #5F5F5F;
   padding: 5px;
@@ -468,11 +481,26 @@ hr {
   margin-top: 100px;
 }
 .services-title{
+  font-family: 'Circular Book', sans-serif;
   padding-top: 250px;
-  font-size: 30px;
+  font-size: 38px;
   color: #0A2250;
   text-align: center;
   margin-bottom: 20px;
+  font-weight: 350;
+}
+.services-text {
+  font-family: 'Roboto', sans-serif;
+  color: #5F5F5F;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+.service-text {
+  font-family: 'Roboto', sans-serif;
+  color: #5F5F5F;
+  font-size: 18px;
+  font-weight: 300;
 }
 .services-title span{
   color: #F28737;
@@ -485,7 +513,7 @@ hr {
   margin-bottom: 50px;
   padding: 15px;
   background-color: transparent;
-  height: 300px;
+  height: 370px;
 }
 
 .service-card:hover{
@@ -495,8 +523,9 @@ hr {
 
 }
 .service-title {
+  font-family: 'Circular Book', sans-serif;
   color:#0A2250 ;
-  font-size: 20px;
+  font-size: 24px;
   margin-top: 25px;
   margin-bottom: 20px;
 }
@@ -520,6 +549,7 @@ hr {
 }
 .thumbnail-title {
   color: #0A2250;
+  font-family: 'Roboto', sans-serif ;
   font-size: 18px;
   margin-bottom: 30px;
 }
@@ -556,8 +586,9 @@ hr {
 
 .brief-content {
   color: #5F5F5F;
-  font-size: 18px;
+  font-size: 19px;
   width: 80%;
+  font-weight: 350;
 }
 
 .next {
@@ -649,7 +680,7 @@ hr {
 /* crystal */
 
 .spacer{
-  height: 120px;
+  height: 100px;
 }
 .hero-image-crystal {
   background-image: url("/assets/img/crystal-thumbnail.png");
@@ -659,6 +690,8 @@ hr {
   background-size: cover;
   position: relative;
 }
+
+
 
 
 
@@ -767,7 +800,22 @@ hr {
   margin-bottom: 40px;
   
 }
-  
+/* case study */
+
+.brief-title {
+  margin-top: 70px;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.brief-content {
+  color: #5F5F5F;
+  font-size: 14px;
+  width: 90%;
+}
+.hero-image-erp , .hero-image-crystal , .hero-image-joanna , .hero-image-leanmeal , .hero-image-adrian , .hero-image-bcp{
+  height: 50%;
+}
 
 }
 
@@ -877,7 +925,21 @@ hr {
   margin-bottom: 40px;
   
 }
+/* case study section */
 
+.brief-title {
+  margin-top: 80px;
+  margin-bottom: 17px;
+  font-size: 24px;
+}
+
+.brief-content {
+  font-size: 16px;
+  width: 95%;
+}
+.hero-image-erp , .hero-image-crystal , .hero-image-joanna , .hero-image-leanmeal , .hero-image-adrian , .hero-image-bcp{
+  height: 50%;
+}
 }
 
 @media (max-width: 991.98px) and (min-width: 768px) { 
@@ -984,6 +1046,17 @@ hr {
   margin: 0 auto;
   margin-bottom: 40px;
   
+}
+/* case study section */
+
+.brief-title {
+  margin-bottom: 19px;
+  font-size: 25px;
+}
+
+.brief-content {
+  font-size: 17px;
+  width: 95%;
 }
 
 }
@@ -1094,6 +1167,18 @@ hr {
   margin: 0 auto;
   margin-bottom: 40px;
   
+}
+
+/* case study section */
+
+.brief-title {
+  margin-top: 82px;
+  margin-bottom: 19px;
+}
+
+.brief-content {
+  font-size: 17px;
+  width: 95%;
 }
 
 }
