@@ -44,7 +44,7 @@
   .header li a {
     display: block;
     padding: 30px 20px;
-    /* border-right: 1px solid #f4f4f4; */
+    font-size: 1.2em;
     text-decoration: none;
   }
   
@@ -316,6 +316,8 @@ padding-left:30px;
 
 
 /* testimonial carousel */
+
+
 .carousel{
   width: 80%;
   margin:0 auto
@@ -506,7 +508,8 @@ hr {
   color: #F28737;
 }
 .service-card{
-  transition: box-shadow .3s;
+  /* transition: box-shadow .3s; */
+  
   width: 300px;
   margin: 0 auto;
   margin-top: 50px;
@@ -516,12 +519,12 @@ hr {
   height: 370px;
 }
 
-.service-card:hover{
+/* .service-card:hover{
   -webkit-box-shadow: 0px 2px 7px -1px rgba(73, 72, 72, 0.75);
   -moz-box-shadow: 0px 2px 7px -1px rgba(82, 81, 81, 0.75);
   box-shadow: 0px 2px 7px -1px rgba(65, 65, 65, 0.75);
 
-}
+} */
 .service-title {
   font-family: 'Circular Book', sans-serif;
   color:#0A2250 ;

@@ -7,6 +7,7 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="//db.onlinewebfonts.com/c/02d8f1743ede250c7c9865f1574d7cc6?family=Circular+Book" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
    
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Imprint Africa</title>
@@ -32,11 +33,17 @@
           <!-- title section -->
           <div class="container">
             
-          <h1 class="services-title">How we can empower your <span>business</span></h1>
-          <p class="services-text">With our deep know how and versatile technical skills, <br>we offer much needed tools for today's digital age</p>
+          <h1 class="services-title" data-aos="fade-in-up"
+          data-aos-delay="50"
+          data-aos-duration="600">How we can empower your <span>business</span></h1>
+          <p class="services-text" data-aos="fade-in-up"
+          data-aos-delay="200"
+          data-aos-duration="600" >With our deep know how and versatile technical skills, <br>we offer much needed tools for today's digital age</p>
 
-          <div class="row services">
-            <div class="col-lg-4  col-sm-10 col-xs-10">
+          <div class="row services" data-aos="slide-up"
+          data-aos-delay="300"
+          data-aos-duration="900" data-aos-easing="ease-in-out">
+            <div class="col-lg-4  col-sm-10 col-xs-10" >
               <div class="card service-card">
                 <img class="service-icon" src="assets/img/monitor-outline.png" alt="Monitor icon" >
                 <h4 class="service-title">ERP solutions</h4>
@@ -97,29 +104,6 @@
           <!-- footer section -->
 <div class="footer">
   <footer>
-    <!-- <div class="row">
-      <div class="col-md-4">
-        <img class="logo-footer" src="assets/img/Full-Colour-(Transparent-Background).png" alt="Imprint logo">
-        <p class="footer-text">Imprint Africa - Digital Agency for all of your technology needs: Website, 
-          E-commerce, Mobile App, ERP and CRM system development.</p>
-
-      </div>
-      <div class="col-md-6">
-        <p class="footer-text footer-text-right">Newsletter coming soon</p>
-                                       Form
-      <div class="col-md-4 col-sm-6">				                
-    
-          <form class="form">
-          
-              <div class="input-group text-center footer-form">
-                  <input type="text" placeholder="Email address" class="form-control input-md-12 form-box">
-                  <span class="input-group-btn "><img  class="paper-plane" src="assets/img/paper-plane.png" alt="paper plane icon" ></span>
-              </div>
-          </form>
-    
-  </div>
-      </div>
-    </div> -->
     <hr>
     <p class="text-muted">© 2020 Imprint Africa. All Rights Reserved.</p>
   </footer>
@@ -128,6 +112,10 @@
 
 
       <!-- JS here -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 
       <script src="/assets/js/app.js"></script>
 </body>
