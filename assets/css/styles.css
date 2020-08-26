@@ -401,12 +401,12 @@ padding-left:30px;
   padding-top: 20px;
 }
 .benefits-section{
-  width: 90%;
+  width: 98%;
   margin: 0 auto;
 }
 .benefits-card {
   transition: box-shadow .3s;
-  width: 370px;
+  width: 350px;
   height: 480px;
   border: transparent;
   background-color:#e9ecec ;
@@ -596,16 +596,16 @@ hr {
 
 .next {
   transition:  box-shadow .3s;
-  border: transparent;
+  /* border: transparent; */
   float: right;
-  width: 30%;
+  width: 20%;
   margin-top: 150px;
 }
 .previous {
   transition:  box-shadow .3s;
-  border: transparent;
+  /* border: transparent; */
   float: left;
-  width: 30%;
+  width: 20%;
   margin-top: 150px;
 }
  .previous:hover , .next:hover {
@@ -683,7 +683,7 @@ hr {
 /* crystal */
 
 .spacer{
-  height: 100px;
+  height: 50px;
 }
 .hero-image-crystal {
   background-image: url("/assets/img/crystal-thumbnail.png");
