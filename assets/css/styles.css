@@ -405,7 +405,7 @@ padding-left:30px;
   margin: 0 auto;
 }
 .benefits-card {
-    -webkit-box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -webkit-box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   -moz-box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   width: 370px;
@@ -641,7 +641,7 @@ hr {
 /* leanmeals */
 .hero-image-leanmeals {
   background-image:
-   url("/assets/img/leanmeals\ thumbnail.png");
+   url("/assets/img/leanmeals\ thumbnail\ \(1\).png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -657,7 +657,7 @@ hr {
 /* adrian app */
 
 .hero-image-adrian {
-  background-image: url("/assets/img/adrian-thumbnail.png");
+  background-image: url("/assets/img/adrian-thumbnail\ \(2\).png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
