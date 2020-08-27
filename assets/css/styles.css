@@ -405,9 +405,9 @@ padding-left:30px;
   margin: 0 auto;
 }
 .benefits-card {
-    -webkit-box-shadow: 0px 2px 7px -1px rgba(73, 72, 72, 0.75);
-  -moz-box-shadow: 0px 2px 7px -1px rgba(82, 81, 81, 0.75);
-  box-shadow: 0px 2px 7px -1px rgba(65, 65, 65, 0.75);
+    -webkit-box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -moz-box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   width: 370px;
   height: 480px;
   border: transparent;
@@ -510,14 +510,16 @@ hr {
 }
 .service-card{
   /* transition: box-shadow .3s; */
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   
   width: 300px;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 15px;
-  background-color: transparent;
+  background-color: #e9ecec;
   height: 370px;
+  border: transparent ;
 }
 
 /* .service-card:hover{
@@ -586,6 +588,7 @@ hr {
   margin-top: 80px;
   margin-bottom: 20px;
   font-size: 25px;
+  text-align: center;
 }
 
 .brief-content {
@@ -593,6 +596,8 @@ hr {
   font-size: 19px;
   width: 80%;
   font-weight: 350;
+  /* text-align: center; */
+  margin: 0 auto;
 }
 
 .next {
@@ -645,7 +650,8 @@ hr {
 }
 
 .leanrow {
-  margin-top: 100px;
+  padding-top: 100px;
+  margin: 0 auto;
 }
 
 /* adrian app */
