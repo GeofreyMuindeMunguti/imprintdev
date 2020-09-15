@@ -166,6 +166,16 @@
     position: relative;
   }
 
+  .services-hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+     url("/assets/img/photograph-of-men-having-conversation-seating-on-chair-1015568.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
   
   .hero-text {
     text-align: left;
@@ -197,7 +207,7 @@
 /*end of hero section*/
 
 .sub-hero{
-  margin-top: 200px;
+  margin-top: 150px;
   margin-left: 50px;
   margin-right:50px;
   width: 90%;
@@ -251,7 +261,7 @@
 .projcontainer {
   background: #e9ecec;
   width: 100%;
-  margin-top: 200px;
+  margin-top: 120px;
   padding-bottom: 50px;
 }
 
@@ -334,7 +344,7 @@ padding-left:30px;
   color: #0A2250;
   font-weight: 350;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 80px;
   padding-top: 80px;
   margin-bottom: 60px;
 }
@@ -481,7 +491,7 @@ hr {
 }
 /* Services page  */
 .services{
-  margin-top: 100px;
+  margin-top: 170px;
 }
 .services-title{
   font-family: 'Circular Book', sans-serif;
@@ -701,6 +711,9 @@ hr {
   position: relative;
 }
 
+.contact-form {
+  margin: 0 auto;
+}
 
 
 

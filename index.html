@@ -24,7 +24,7 @@
       <ul class="menu">
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="services.html" >Services</a></li>
-        <li><a href="our-work.html">Our Work</a></li>
+        <li><a href="our-work.html">Sample Work</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </header>
@@ -246,29 +246,29 @@ data-aos-duration="600">
     <div class="col-md-3">
       <img class="logos" src="assets/img/ms-p-1.jpg" alt="client logo">
     </div>
-    <div class="col-md-3">
-      <img class="logos" src="assets/img/ms-p-2.jpg" alt="client logo">
+    <div class="col-md-3 mt-4">
+      <img class="logos" src="assets/img/Enda_Logo_628_wide.png" alt="client logo">
     </div>
     <div class="col-md-3">
       <img class="logos" src="assets/img/ms-p-3.jpg" alt="client logo">
     </div>
     <div class="col-md-3">
-      <img class="logos" src="assets/img/ms-p-4.jpg" alt="client logo">
+      <img class="logos" src="assets/img/crystal.png" alt="client logo">
     </div>
     <div class="col-md-3">
       <img class="logos" src="assets/img/ms-p-5.png" alt="client logo">
     </div>
     <div class="col-md-3">
-      <img class="logos" src="assets/img/ms-p-6.jpg" alt="client logo">
+      <img class="logos" src="assets/img/adrian.png" alt="client logo">
     </div>
     <div class="col-md-3">
-      <img class="logos" src="assets/img/joanna-e1577948931898.png" style="padding-top:18px ;" alt="client logo">
+      <img class="logos" src="assets/img/joanna-e1577948931898.png" style="padding-top:22px ;" alt="client logo">
     </div>
     <div class="col-md-3">
       <img class="logos" src="assets/img/ms-p-8.jpg" alt="client logo">
     </div>
     <div class="col-md-3">
-      <img class="logos" src="assets/img/ms-p-9.jpg" alt="client logo">
+      <img class="logos" src="assets/img/Webp.net-resizeimage.png" alt="client logo">
     </div>
     <div class="col-md-3">
       <img class="logos" src="assets/img/ms-p-10.jpg" alt="client logo">
@@ -277,7 +277,7 @@ data-aos-duration="600">
       <img class="logos" src="assets/img/ms-p-11.jpg" alt="client logo">
     </div>
     <div class="col-md-3">
-      <img class="logos" src="assets/img/ms-p-12.png" alt="client logo">
+      <img class="logos" src="assets/img/sunland.jpg" alt="client logo">
     </div>
   </div>
 </div>
@@ -346,6 +346,51 @@ data-aos-duration="600">The right fit for your business</h2>
 
 
 <!--end of benefits section -->
+
+<!-- Map section -->
+
+<div class="d-none d-sm-block mb-5 pb-4 mt-5 text-center">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.808351045749!2d36.78098734972622!3d-1.2892119359869059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f109996536c39%3A0x4eb6d6e1e16b4153!2siHub!5e0!3m2!1sen!2ske!4v1587130006608!5m2!1sen!2ske" width="900" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  <script>
+      function initMap() {
+          var uluru = {
+              lat: -25.363,
+              lng: 131.044
+          };
+          var grayStyles = [{
+                  featureType: "all",
+                  stylers: [{
+                          saturation: -90
+                      },
+                      {
+                          lightness: 50
+                      }
+                  ]
+              },
+              {
+                  elementType: 'labels.text.fill',
+                  stylers: [{
+                      color: '#ccdee9'
+                  }]
+              }
+          ];
+          var map = new google.maps.Map(document.getElementById('map'), {
+              center: {
+                  lat: -31.197,
+                  lng: 150.744
+              },
+              zoom: 9,
+              styles: grayStyles,
+              scrollwheel: false
+          });
+      }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp;callback=initMap">
+  </script>
+
+</div>
+
+<!-- End of map section -->
 
 <!-- footer section -->
 <div class="footer">
