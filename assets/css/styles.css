@@ -85,7 +85,7 @@
   
   .header .menu-icon {
     cursor: pointer;
-    display: inline-block;
+    /* display: inline-block;  this is ignored when float is right */
     float: right;
     padding: 28px 20px;
     position: relative;
