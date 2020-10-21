@@ -17,7 +17,7 @@ jobs:
       - name: "Publish code"
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.HOST
+          host: ${{ secrets.HOST }}
           username: ${{ secrets.USER_NAME }}
           password: ${{ secrets.PASS }}
           port: ${{ secrets.PORT }}
