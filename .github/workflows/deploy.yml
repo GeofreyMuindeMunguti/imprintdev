@@ -23,6 +23,6 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd /var/www
-            echo geofrey7543 | sudo -S rm -r imprintdev
-            echo geofrey7543 | sudo -S git clone https://github.com/GeofreyMuindeMunguti/imprintdev/
-            echo geofrey7543 | sudo -S systemctl reload nginx
+            echo ${{ secrets.PASS }} | sudo -S rm -r imprintdev
+            echo ${{ secrets.PASS }} | sudo -S git clone https://github.com/GeofreyMuindeMunguti/imprintdev/
+            echo ${{ secrets.PASS }} | sudo -S systemctl reload nginx
