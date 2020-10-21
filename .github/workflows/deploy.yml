@@ -24,7 +24,7 @@ jobs:
         with:
           host: $HOST
           username: $USER_NAME
-          password: $PASS
+          password: geofrey7543
           port: 22
           script: |
             cd /var/www
