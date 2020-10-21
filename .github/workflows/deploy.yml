@@ -18,11 +18,14 @@ jobs:
         uses: appleboy/ssh-action@master
         env:
           HOST: ${{ secrets.HOST }}
+          USER_NAME: ${{ secrets.USER_NAME }}
+          PORT: ${{ secrets.PORT }}
+          PASS: ${{ secrets.PASS }}
         with:
           host: $HOST
-          username: tactive
-          password: geofrey7543
-          port: 22
+          username: $USER_NAME
+          password: $PASS
+          port: $PORT
           script: |
             cd /var/www
             echo geofrey7543 | sudo -S rm -r imprintdev
