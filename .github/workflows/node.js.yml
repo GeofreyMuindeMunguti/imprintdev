@@ -1,0 +1,27 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Website CI/CD
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu:latest
+    steps:
+      - name: "Publish code"
+        uses: appleboy/ssh-action@master
+        with:
+          host: 64.225.126.64
+          username: tactive
+          password: geofrey7543
+          port: 22
+          script: |
+            cd /var/www
+            echo geofrey7543 | sudo rm -r imprintdev
+            echo geofrey7543 | sudo git clone https://github.com/GeofreyMuindeMunguti/imprintdev/
+            echo geofrey7543 | sudo systemctl reload nginx
