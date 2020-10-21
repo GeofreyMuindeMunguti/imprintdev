@@ -16,16 +16,11 @@ jobs:
       - uses: actions/checkout@v1
       - name: "Publish code"
         uses: appleboy/ssh-action@master
-        env:
-          HOST: ${{ secrets.HOST }}
-          USER_NAME: ${{ secrets.USER_NAME }}
-          PORT: ${{ secrets.PORT }}
-          PASS: ${{ secrets.PASS }}
         with:
-          host: $HOST
+          host: ${{ secrets.HOST
           username: ${{ secrets.USER_NAME }}
-          password: geofrey7543
-          port: $PORT
+          password: ${{ secrets.PASS }}
+          port: ${{ secrets.PORT }}
           script: |
             cd /var/www
             echo geofrey7543 | sudo -S rm -r imprintdev
