@@ -24,8 +24,8 @@ jobs:
         with:
           host: $HOST
           username: tactive
-          password: $PASS
-          port: 22
+          password: geofrey7543
+          port: $PORT
           script: |
             cd /var/www
             echo geofrey7543 | sudo -S rm -r imprintdev
