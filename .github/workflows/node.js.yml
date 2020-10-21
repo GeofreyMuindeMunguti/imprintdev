@@ -13,6 +13,7 @@ jobs:
   deploy:
     runs-on: ubuntu:18
     steps:
+      - uses: actions/checkout@v1
       - name: "Publish code"
         uses: appleboy/ssh-action@master
         with:
