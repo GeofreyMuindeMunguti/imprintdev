@@ -23,7 +23,7 @@ jobs:
           PASS: ${{ secrets.PASS }}
         with:
           host: $HOST
-          username: tactive
+          username: ${{ secrets.USER_NAME }}
           password: geofrey7543
           port: $PORT
           script: |
