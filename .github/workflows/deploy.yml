@@ -23,8 +23,8 @@ jobs:
           PASS: ${{ secrets.PASS }}
         with:
           host: $HOST
-          username: $USER_NAME
-          password: geofrey7543
+          username: tactive
+          password: $PASS
           port: 22
           script: |
             cd /var/www
